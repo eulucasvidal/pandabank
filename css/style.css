@@ -1,0 +1,16 @@
+/* GLOBAL */
+@import './global/header.css';
+@import './global/global.css';
+
+/* UTILIDADES */
+@import './utilidades/componentes.css';
+@import './utilidades/cores.css';
+@import './utilidades/tipografia.css';
+
+/* HOME */
+@import './home/introducao.css';
+@import './home/beneficios.css';
+@import './home/servicos.css';
+@import './home/plataforma.css';
+@import './home/cadastro.css';
+@import './home/planos.css';

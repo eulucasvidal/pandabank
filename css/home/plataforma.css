@@ -1,0 +1,9 @@
+.plataforma-bg{
+    background: var(--cor-p3);
+}
+
+.plataforma{
+    display: grid;
+    justify-items: center;
+    padding: 40px 0;
+}

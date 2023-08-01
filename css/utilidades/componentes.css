@@ -1,0 +1,71 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*BOTÕES */
+.botao {
+  border: none;
+  background: none;
+  font-size: 18px;
+  color: var(--cor-p3);
+  cursor: pointer;
+}
+.btn-1.seta {
+  display: flex;
+  align-items: center;
+}
+.btn-1.seta::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  background: url(../../img/icones/seta.svg) no-repeat;
+}
+.btn-1.seta:hover::after {
+  transition: 0.6s;
+  transform: translateX(6px);
+}
+
+.btn-2 {
+  background: var(--cor-p2);
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 16px 0 #0000009f;
+}
+.btn-2:hover {
+  background: var(--cor-g3);
+  color: var(--cor-p5);
+  transition: 0.6s;
+}
+
+.botao-mobile {
+  display: flex;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: var(--cor-p2);
+}
+.btn-mobile {
+  display: block;
+  width: 20px;
+  border-top: 2px solid;
+  background:transparent;
+}
+
+.btn-mobile::after,
+.btn-mobile::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 20px;
+  background: currentColor;
+  margin-top: 5px;
+  transition: 0.6s;
+  position: relative;
+}

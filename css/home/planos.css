@@ -1,0 +1,25 @@
+.planos-bg {
+  background: var(--cor-p4);
+}
+.planos{
+    display: grid;
+}
+.planos-conteudo{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 40px 0px;
+  gap: 40px;
+}
+
+.planos-item {
+  background: var(--cor-0);
+  display: grid;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0 #0000009f;
+  padding: 40px 0px;
+}
+
+.planos-item ul li{
+    list-style:square;
+}

@@ -1,0 +1,18 @@
+.cadastro-bg{
+    background: var(--cor-p5);
+}
+
+.cadastro{
+    display: grid;
+    justify-items: center;
+    padding: 40px 0;
+    gap: 40px;
+}
+
+.cadastro-conteudo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}

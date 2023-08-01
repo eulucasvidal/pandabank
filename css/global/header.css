@@ -1,0 +1,32 @@
+.header-bg {
+  background: var(--cor-p3);
+  padding: 20px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: var(--cor-p4);
+  border-radius: 50px;
+}
+
+.header-menu{
+  display:flex;
+  gap: 15px;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.header-btn{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu-grande-invisivel{
+  display: flex;
+  align-items: center;
+}
